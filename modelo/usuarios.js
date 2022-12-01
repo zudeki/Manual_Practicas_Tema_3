@@ -4,7 +4,6 @@ var mongoose = require("mongoose")
 var Schema = mongoose.Schema;
 
 var EsquemaUsuarios=Schema({
-    id: String,
     nombre: String,
     apellido: String,
     email: String,
@@ -13,4 +12,4 @@ var EsquemaUsuarios=Schema({
     imagen: String
 });
 
-module.exports = mongoose.model('Usuarios', EsquemaUsuarios)
+module.exports = mongoose.model('usuarios', EsquemaUsuarios)
